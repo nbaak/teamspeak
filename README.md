@@ -13,6 +13,7 @@ For the **first** run of your Teamspeak  3 Cluster you have to start it with `do
 
 
 ## usage
-start.sh  - starts the cluster
-stop.sh   - stops the cluster
-update.sh - pulls new teamspeak image, stops the cluster, removes the old container and starts the cluster again.
+* start.sh  - starts the cluster
+* stop.sh   - stops the cluster
+* update.sh - pulls new teamspeak image, stops the cluster, removes the old container and starts the cluster again.
+* backup-database.sh - creates a backup of the current database
